@@ -25,7 +25,7 @@ hiddenFromHomePage: true
 
 1- Installed Jenkins on the local system or any VM. [how to install Jenkins](https://www.jenkins.io/doc/book/installing/)
      
-[for add credentials](https://www.jenkins.io/doc/book/using/using-credentials/#:~:text=From%20the%20Jenkins%20home%20page,Add%20Credentials%20on%20the%20left.) 
+[for add credentials] (https://yahyagulshan.com/posts/how-to-add-credentials-on-jenkins/) 
      
 [for jenkins plugins](https://www.jenkins.io/doc/book/managing/plugins/)
 
