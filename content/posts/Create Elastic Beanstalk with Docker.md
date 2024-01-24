@@ -9,6 +9,8 @@ tags:
 - Docker
 - Ec2
 - Load Balancer
+- RDS 
+- Networking
 
 categories:
 
@@ -18,7 +20,8 @@ hiddenFromHomePage: true
 
 # Creating an Elastic Beanstalk Environment: A Step-by-Step Guide
 
-* Setting up your application on Amazon Elastic Beanstalk is a seamless process that allows for easy deployment and scaling. Follow these steps to create your environment:
+* Setting up your application on Amazon Elastic Beanstalk is a seamless process that allows for easy deployment and scaling. 
+  Follow these steps to create your environment:
 
 ## Step 1: Open Elastic Beanstalk and Create Environment
 
