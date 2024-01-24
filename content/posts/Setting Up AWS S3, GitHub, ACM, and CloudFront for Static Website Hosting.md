@@ -18,14 +18,18 @@ hiddenFromHomePage: true
 ## 1. Create S3 Bucket for Static Website Hosting
 
 
-Create an S3 bucket named "abc.com"
-Set the bucket as a static website page:
-Open the S3 bucket and go to "Properties."
-In the last option, enable static website hosting.
+* Create an S3 bucket named "abc.com"
+
+* Set the bucket as a static website page:
+
+* Open the S3 bucket and go to "Properties."
+
+* In the last option, enable static website hosting.
 
 <!-- {{< image src="/img/setting-up-aws-s3-github/S3-bucket.png" caption=" Open URL ">}} -->
 
 ## 2. Configure Bucket Policy for Public Access
+
 * In the S3 bucket, navigate to "Permissions."
 
 * Edit the bucket policy and add the following policy, replacing the S3 bucket ARN:
@@ -58,8 +62,11 @@ Change the "config.toml" file:
 ## 4. Add Secrets to GitHub Repository
 
 * In GitHub repository settings, go to "Secrets and variables" > "Actions."
+
 * Add the following security secrets:
+
 * AWS access key
+
 * Secret access key
 
 
@@ -72,6 +79,7 @@ Change the "config.toml" file:
 ## 6. Create AWS ACM SSL Certificate
 
 * Open AWS ACM page and click on "Request a Public Certificate."
+
 * Provide the domain name (e.g., "abc.com") and select DNS validation.
 
 ## 7. Add values in Cloudflare 
@@ -81,7 +89,9 @@ Change the "config.toml" file:
 ## 8. Create CloudFront Distribution
 
 * Go to CloudFront and click on "Create Distribution."
+
 * Choose the S3 bucket as the origin domain.
+
 * Click on "Create Distribution" and wait for verification.
 
 
@@ -101,7 +111,9 @@ Change the "config.toml" file:
 ## 9. Configure CloudFront Origin Domain
 
 * Go to CloudFront > Origins > Edit.
+
 * Change the origin domain value by copying the S3 static website hosting URL (without http/).
+
 * Save the changes.
 
 
@@ -115,7 +127,9 @@ Change the "config.toml" file:
 ## 10. Redirect Domain to CloudFront
 
 * Copy the URL of the CloudFront distribution.
+
 * Create a CNAME record on Cloudflare or your domain registrar with the CloudFront URL as the value.
+
 * After populating the value, your website will display the CloudFront content.
 
 * Now, your static website is hosted on AWS S3, served through CloudFront, and secured with an ACM SSL certificate. The entire deployment process is      automated through GitHub Actions.
