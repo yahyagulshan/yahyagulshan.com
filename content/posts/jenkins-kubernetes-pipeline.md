@@ -36,6 +36,7 @@ hiddenFromHomePage: true
 4- Make sure Jenkins has a connection with Kubernetes  [how to make connection](https://medium.com/@devayanthakur/minikube-configure-jenkins-kubernetes-plugin-25eb804d0dec)
 
 5- DockerHub Repository:
+
 Have a DockerHub repository ready to store your Docker images.
 
 # How to configure Jenkins Project
