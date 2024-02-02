@@ -27,9 +27,9 @@ hiddenFromHomePage: true
      
 [for add credentials] (https://yahyagulshan.com/posts/how-to-add-credentials-on-jenkins/) 
      
-[for jenkins plugins](https://www.jenkins.io/doc/book/managing/plugins/)
+[for jenkins plugins](https://yahyagulshan.com/posts/how-to-install-jenkins-pluging/)
 
-2- Installed Kubernetes minikube. [how to install](https://kubernetes.io/docs/setup/)
+2- Installed Kubernetes minikube. [how to install](https://yahyagulshan.com/posts/how-to-install-kubernetes/)
 
 3- Installed Docker.[how to install](https://docs.docker.com/engine/install/)
 
