@@ -1,6 +1,6 @@
 name: Continuous Deployment
 
-When action will run
+# When action will run
 on: 
   push:
     branches:
