@@ -31,7 +31,7 @@ hiddenFromHomePage: true
 
 2- Installed Kubernetes minikube. [how to install](https://yahyagulshan.com/posts/how-to-install-kubernetes/)
 
-3- Installed Docker.[how to install](https://docs.docker.com/engine/install/)
+3- Installed Docker.[how to install](https://yahyagulshan.com/posts/how-to-install-docker-on-ubuntu/)
 
 4- Make sure Jenkins has a connection with Kubernetes  [how to make connection](https://medium.com/@devayanthakur/minikube-configure-jenkins-kubernetes-plugin-25eb804d0dec)
 
