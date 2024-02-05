@@ -23,19 +23,20 @@ hiddenFromHomePage: true
 
 # Prerequisites
 
-1- Installed Jenkins on the local system or any VM. [how to install Jenkins](https://www.jenkins.io/doc/book/installing/)
+1- Installed Jenkins on the local system or any VM. [how to install Jenkins](https://yahyagulshan.com/posts/How-to-install-Jenkins-on-Ubuntu-22.04/)
      
-[for add credentials](https://www.jenkins.io/doc/book/using/using-credentials/#:~:text=From%20the%20Jenkins%20home%20page,Add%20Credentials%20on%20the%20left.) 
+[for add credentials] (https://yahyagulshan.com/posts/how-to-add-credentials-on-jenkins/) 
      
-[for jenkins plugins](https://www.jenkins.io/doc/book/managing/plugins/)
+[for jenkins plugins](https://yahyagulshan.com/posts/how-to-install-jenkins-pluging/)
 
-2- Installed Kubernetes minikube. [how to install](https://kubernetes.io/docs/setup/)
+2- Installed Kubernetes minikube. [how to install](https://yahyagulshan.com/posts/how-to-install-kubernetes/)
 
-3- Installed Docker.[how to install](https://docs.docker.com/engine/install/)
+3- Installed Docker.[how to install](https://yahyagulshan.com/posts/how-to-install-docker-on-ubuntu/)
 
 4- Make sure Jenkins has a connection with Kubernetes  [how to make connection](https://medium.com/@devayanthakur/minikube-configure-jenkins-kubernetes-plugin-25eb804d0dec)
 
 5- DockerHub Repository:
+
 Have a DockerHub repository ready to store your Docker images.
 
 # How to configure Jenkins Project
