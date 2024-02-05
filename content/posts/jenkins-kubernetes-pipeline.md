@@ -23,7 +23,7 @@ hiddenFromHomePage: true
 
 # Prerequisites
 
-1- Installed Jenkins on the local system or any VM. [how to install Jenkins](https://www.jenkins.io/doc/book/installing/)
+1- Installed Jenkins on the local system or any VM. [how to install Jenkins](https://yahyagulshan.com/posts/How-to-install-Jenkins-on-Ubuntu-22.04/)
      
 [for add credentials] (https://yahyagulshan.com/posts/how-to-add-credentials-on-jenkins/) 
      
