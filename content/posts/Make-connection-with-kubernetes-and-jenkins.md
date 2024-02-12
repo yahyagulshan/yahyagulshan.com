@@ -33,4 +33,4 @@ hiddenFromHomePage: true
 
 * Create a file called `account.yaml` .
 
-== --- ==
+<span style="color:blue">some *This is Blue italic.* text</span>
