@@ -1,0 +1,117 @@
+---
+title: "Make connection with kubernetes and jenkins"
+date: 2024-02-12T04:06:22Z
+author:
+authorLink:
+description:
+tags:
+- Kubernetes
+- Jenkins
+- Connection
+- Ubuntu
+categories:
+
+draft: false
+hiddenFromHomePage: true
+---
+
+# For make connection between Kubernetes and Jenkins
+
+## Prerequset 
+
+* Jenkins is installed on Linux(ubuntu) machine and minikube is running .
+
+### Plugins required 
+
+* Docker
+
+* Docker Pipeline
+
+* Kubernetes
+
+### Creating a service account with secret for kubernetes-plugin in minikube
+
+* Create a file called `account.yaml` .
+
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: jenkins
+  namespace: default
+---
+
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: jenkins
+  namespace: default
+rules:
+- apiGroups: [""]
+  resources: ["pods","services"]
+  verbs: ["create","delete","get","list","patch","update","watch"]
+- apiGroups: ["apps"]
+  resources: ["deployments"]
+  verbs: ["create","delete","get","list","patch","update","watch"]
+- apiGroups: [""]
+  resources: ["pods/exec"]
+  verbs: ["create","delete","get","list","patch","update","watch"]
+- apiGroups: [""]
+  resources: ["pods/log"]
+  verbs: ["get","list","watch"]
+- apiGroups: [""]
+  resources: ["secrets"]
+  verbs: ["get"]
+- apiGroups: [""]
+  resources: ["persistentvolumeclaims"]
+  verbs: ["create","delete","get","list","patch","update","watch"]
+ 
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: jenkins-token
+  annotations:
+    kubernetes.io/service-account.name: jenkins
+type: kubernetes.io/service-account-token
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: jenkins
+  namespace: default
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: jenkins
+subjects:
+- kind: ServiceAccount
+  name: jenkins
+---
+# Allows jenkins to create persistent volumes
+# This cluster role binding allows anyone in the "manager" group to read secrets in any namespace.
+kind: ClusterRoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: jenkins-crb
+subjects:
+- kind: ServiceAccount
+  namespace: default
+  name: jenkins
+roleRef:
+  kind: ClusterRole
+  name: jenkinsclusterrole
+  apiGroup: rbac.authorization.k8s.io
+---
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  # "namespace" omitted since ClusterRoles are not namespaced
+  name: jenkinsclusterrole
+rules:
+- apiGroups: [""]
+  resources: ["persistentvolumes"]
+  verbs: ["create","delete","get","list","patch","update","watch"] 
+
+<span style="color:blue">some *blue* kind: Deployment</span>.
