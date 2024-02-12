@@ -33,4 +33,9 @@ hiddenFromHomePage: true
 
 * Create a file called `account.yaml` .
 
-<span style="color:red">some **This is Red Bold.** text</span>
+Achievements:
+- Can create a Key, Value list from Data File
+- Learns Hugo
+- Reads documentation
+Name: User0123
+Short Description: He is a **jolly good** fellow.
