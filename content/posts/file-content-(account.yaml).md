@@ -14,15 +14,15 @@ categories:
 draft: false
 hiddenFromHomePage: true
 ---
-`<p>---</p>`
+<p>---</p>
 
-`<p>apiVersion: v1 </p>`
-`<p>kind: ServiceAccount</p>`
-`<p>metadata:</p>`
-  `<p>name: jenkins</p>`
-  `<p>namespace: default</p>`
+<p>apiVersion: v1 </p>
+<p>kind: ServiceAccount</p>
+<p>metadata:</p>
+  <p>name: jenkins</p>
+  <p>namespace: default</p>
 
-`<p>---</p>`
+<p>---</p>
 
 <p>kind: Role</p>
 <p>apiVersion: rbac.authorization.k8s.io/v1</p>
