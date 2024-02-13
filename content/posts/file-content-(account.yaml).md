@@ -72,27 +72,27 @@ hiddenFromHomePage: true
 <p>- kind: ServiceAccount
   name: jenkins<p>
 ---
-<p>### Allows jenkins to create persistent volumes
-### This cluster role binding allows anyone in the "manager" group to read secrets in any namespace.
-kind: ClusterRoleBinding
-apiVersion: rbac.authorization.k8s.io/v1
-metadata:
-  name: jenkins-crb
-subjects:
-- kind: ServiceAccount
-  namespace: default
-  name: jenkins
-roleRef:
-  kind: ClusterRole
-  name: jenkinsclusterrole
-  apiGroup: rbac.authorization.k8s.io
----
-kind: ClusterRole
-apiVersion: rbac.authorization.k8s.io/v1
-metadata:
-### "namespace" omitted since ClusterRoles are not namespaced
-  name: jenkinsclusterrole
-rules:
-- apiGroups: [""]
-  resources: ["persistentvolumes"]
-  verbs: ["create","delete","get","list","patch","update","watch"]<p>
+<p>### Allows jenkins to create persistent volumes<p>
+<p>### This cluster role binding allows anyone in the "manager" group to read secrets in any namespace.<p>
+<p>kind: ClusterRoleBinding<p>
+<p>apiVersion: rbac.authorization.k8s.io/v1<p>
+<p>metadata:<p>
+  <p>name: jenkins-crb<p>
+<p>subjects:<p>
+<p>- kind: ServiceAccount<p>
+  <p>namespace: default<p>
+  <p>name: jenkins<p>
+<p>roleRef:<p>
+  <p>kind: ClusterRole<p>
+  <p>name: jenkinsclusterrole<p>
+  <p>apiGroup: rbac.authorization.k8s.io<p>
+<p>---<p>
+<p>kind: ClusterRole<p>
+<p>apiVersion: rbac.authorization.k8s.io/v1<p>
+<p>metadata:<p>
+<p>### "namespace" omitted since ClusterRoles are not namespaced<p>
+  <p>name: jenkinsclusterrole<p>
+<p>rules:<p>
+<p>- apiGroups: [""]<p>
+  <p>resources: ["persistentvolumes"]<p>
+  <p>verbs: ["create","delete","get","list","patch","update","watch"]<p>
