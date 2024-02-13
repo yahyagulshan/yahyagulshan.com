@@ -17,55 +17,55 @@ hiddenFromHomePage: true
 <p>---</p>
 
 <p>apiVersion: v1 </p>
-kind: ServiceAccount
-metadata:
-  name: jenkins
-  namespace: default
+<p>kind: ServiceAccount</p>
+<p>metadata:</p>
+  <p>name: jenkins</p>
+  <p>namespace: default</p>
 
----
+<p>---</p>
 
-kind: Role
-apiVersion: rbac.authorization.k8s.io/v1
-metadata:
-  name: jenkins
-  namespace: default
-rules:
-- apiGroups: [""]
-  resources: ["pods","services"]
-  verbs: ["create","delete","get","list","patch","update","watch"]
-- apiGroups: ["apps"]
-  resources: ["deployments"]
-  verbs: ["create","delete","get","list","patch","update","watch"]
-- apiGroups: [""]
-  resources: ["pods/exec"]
-  verbs: ["create","delete","get","list","patch","update","watch"]
-- apiGroups: [""]
-  resources: ["pods/log"]
-  verbs: ["get","list","watch"]
-- apiGroups: [""]
-  resources: ["secrets"]
-  verbs: ["get"]
-- apiGroups: [""]
-  resources: ["persistentvolumeclaims"]
-  verbs: ["create","delete","get","list","patch","update","watch"]
+<p>kind: Role</p>
+<p>apiVersion: rbac.authorization.k8s.io/v1</p>
+<p>metadata:</p>
+  <p>name: jenkins</p>
+  <p>namespace: default</p>
+<p>rules:</p>
+<p>- apiGroups: [""]</p>
+  <p>resources: ["pods","services"]</p>
+  <p>verbs: ["create","delete","get","list","patch","update","watch"]</p>
+<p>- apiGroups: ["apps"]</p>
+  <p>resources: ["deployments"]</p>
+  <p>verbs: ["create","delete","get","list","patch","update","watch"]</p>
+<p>- apiGroups: [""]</p>
+  <p>resources: ["pods/exec"]</p>
+  <p>verbs: ["create","delete","get","list","patch","update","watch"]</p>
+<p>- apiGroups: [""]</p>
+ <p> resources: ["pods/log"]</p>
+  <p>verbs: ["get","list","watch"]</p>
+<p>- apiGroups: [""]</p>
+  <p>resources: ["secrets"]</p>
+ <p> verbs: ["get"]</p>
+<p>- apiGroups: [""]</p>
+  <p>resources: ["persistentvolumeclaims"]</p>
+  <p>verbs: ["create","delete","get","list","patch","update","watch"]</p>
  
----
-apiVersion: v1
-kind: Secret
-metadata:
-  name: jenkins-token
-  annotations:
-    kubernetes.io/service-account.name: jenkins
-type: kubernetes.io/service-account-token
+<p>---</p>
+<p>apiVersion: v1</p>
+<p>kind: Secret</p>
+<p>metadata:</p>
+  <p>name: jenkins-token</p>
+  <p>annotations:</p>
+    <p>kubernetes.io/service-account.name: jenkins</p>
+<p>type: kubernetes.io/service-account-token</p>
 
----
-apiVersion: rbac.authorization.k8s.io/v1
-kind: RoleBinding
-metadata:
-  name: jenkins
-  namespace: default
-roleRef:
-  apiGroup: rbac.authorization.k8s.io
+<p>---</p>
+<p>apiVersion: rbac.authorization.k8s.io/v1</p>
+<p>kind: RoleBinding</p>
+<p>metadata:</p>
+  <p>name: jenkins</p>
+  <p>namespace: default</p>
+<p>roleRef:</p>
+  <p>apiGroup: rbac.authorization.k8s.io</p>
   kind: Role
   name: jenkins
 subjects:
