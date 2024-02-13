@@ -14,7 +14,9 @@ categories:
 draft: false
 hiddenFromHomePage: true
 ---
---
+
+
+---
 apiVersion: v1
 kind: ServiceAccount
 metadata:
@@ -70,8 +72,8 @@ subjects:
 - kind: ServiceAccount
   name: jenkins
 ---
-# Allows jenkins to create persistent volumes
-# This cluster role binding allows anyone in the "manager" group to read secrets in any namespace.
+### Allows jenkins to create persistent volumes
+### This cluster role binding allows anyone in the "manager" group to read secrets in any namespace.
 kind: ClusterRoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
@@ -88,7 +90,7 @@ roleRef:
 kind: ClusterRole
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  # "namespace" omitted since ClusterRoles are not namespaced
+### "namespace" omitted since ClusterRoles are not namespaced
   name: jenkinsclusterrole
 rules:
 - apiGroups: [""]
