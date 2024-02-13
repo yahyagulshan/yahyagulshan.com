@@ -38,5 +38,8 @@ hiddenFromHomePage: true
 {{< image src="/img/Connection/file.png" caption=" follow the instruction ">}}
 {{< image src="/img/Connection/file2.png" caption=" follow the instruction ">}}
 
-for file [file](https://yahyagulshan.com/posts/how-to-install-kubernetes/)
+for file [file](https://yahyagulshan.com/posts/file-content-(account.yaml))
+
+
+                                               
 
