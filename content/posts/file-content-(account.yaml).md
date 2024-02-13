@@ -14,14 +14,14 @@ categories:
 draft: false
 hiddenFromHomePage: true
 ---
+<p>---</p>
 
-
----
-apiVersion: v1
+<p>apiVersion: v1 </p>
 kind: ServiceAccount
 metadata:
   name: jenkins
   namespace: default
+
 ---
 
 kind: Role
