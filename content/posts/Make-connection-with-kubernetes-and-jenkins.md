@@ -33,7 +33,11 @@ hiddenFromHomePage: true
 
 * Create a file called `account.yaml` .
 
-<span style="color:blue">some *This is Blue italic.* text</span>
+---
+
+<span style="color:blue">apiVersion: v1</span>
 
 
-<span style="color:red">some **This is Red Bold.** text</span>
+<span style="color:red">kind: ServiceAccount</span>
+
+<span style="color:red">metadata:</span>
