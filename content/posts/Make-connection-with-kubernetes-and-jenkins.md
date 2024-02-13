@@ -15,13 +15,16 @@ draft: false
 hiddenFromHomePage: true
 ---
 
-# For make connection between Kubernetes and Jenkins
+# This document outlines the steps to connect Kubernetes and Jenkins on a Linux (Ubuntu) machine with Minikube running.
 
-## Prerequset 
+## Prerequisites: 
 
-* Jenkins is installed on Linux(ubuntu) machine and minikube is running .
+* Jenkins installed on a Linux (Ubuntu) machine.
 
-### Plugins required 
+* Minikube running on the same machine.
+
+
+### Required Plugins:
 
 * Docker
 
@@ -29,9 +32,9 @@ hiddenFromHomePage: true
 
 * Kubernetes
 
-### Creating a service account with secret for kubernetes-plugin in minikube
+### Creating a Service Account and Secret for Kubernetes Plugin in Minikube
 
-* Create a file called `account.yaml` .
+* Create a file named account.yaml with the following content:
 
 ---
 
@@ -40,49 +43,60 @@ hiddenFromHomePage: true
 
 for file [file](https://yahyagulshan.com/posts/file-content-(account.yaml))
 
-* Now run the below command
+* Run the following command:
 
 `kubectl apply -f account.yaml`
 
-### Save secret token data, we need it while configure Kubernetes credentials in Jenkins
+### Save the secret token data for configuring Kubernetes credentials in Jenkins:
 
-* to get secret token
+* Run `kubectl get secrets` to list secrets.
 
-`kubectl get secrets`
+* Run `kubectl describe secrets/jenkins-token` to get the token data .
 
-* get secret data run below command
+*  Copy the token and store it securely.
 
-`kubectl describe secrets/jenkins-token`
+### Adding Kubernetes Credentials to Jenkins
 
-*  copy the token and save it in secure place
+* Open Jenkins and navigate to Manage Jenkins > Manage Credentials.
 
-* now open Jenkins (In Jenkins click on Manage Jenkins → Manage Credentials)
+* Click "Secret Text" and paste the copied token into the field.
 
-* Secret: token string , Paste token data in a secret field
-
-* create Kubernetes Id (my_kubernetes)with token data(token string )
+* Create a Kubernetes ID named "my_kubernetes" with the token as credentials.
 
 {{< image src="/img/Connection/Jenkins-page.png" caption=" follow the instruction ">}}
 
-* Save DockerHub credentials in a Jenkins
+### Adding DockerHub Credentials to Jenkins
+
+
+* Navigate to Manage Jenkins > Manage Credentials.
 
 {{< image src="/img/Connection/docker-credentials.png" caption=" follow the instruction ">}}
 
-* Configuring Kubernetes plugin 
 
-`Jenkins — manage Jenkins — Manage Nodes & Clouds`  (Configure system scroll to bottom and in Add a new cloud, select Kubernetes)
+* Click "Username and Password" and provide your DockerHub credentials.
 
-* Convert certificate info into base64 encoding and paste it in a field ( Kubernetes server certificate key)
+### Configuring Kubernetes Plugin in Jenkins
 
+* Navigate to Manage Jenkins > Manage Nodes & Clouds.
+
+* Scroll to the bottom and click "Add a new cloud". Select "Kubernetes".
+
+### Convert the Minikube CA certificate to Base64 encoding:
+
+**Bash**
 `cat /home/devyan/.minikube/ca.crt | base64 -w 0; echo`
 
 {{< image src="/img/Connection/pic.png" caption=" follow the instruction ">}}
 
 * Use Kubernetes Id(my_kubernetes) which was crated earlier.
 
+* Paste the encoded certificate into the "Kubernetes server certificate key" field.
+
 {{< image src="/img/Connection/id.png" caption=" follow the instruction ">}}
 
-* Now our connection is establish
+* Save the configuration.
+
+* Verification and Next Steps
 
 
 
