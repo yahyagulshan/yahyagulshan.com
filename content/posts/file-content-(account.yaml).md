@@ -65,7 +65,7 @@ hiddenFromHomePage: true
   <p>name: jenkins</p>
   <p>namespace: default</p>
 <p>roleRef:</p>
-  <p>apiGroup: rbac.authorization.k8s.io</p>
+  <p> apiGroup: rbac.authorization.k8s.io <p>
   kind: Role
   name: jenkins
 subjects:
