@@ -61,7 +61,7 @@ In this comprehensive guide, we'll walk you through the process of establishing 
 
 **Apache:**
 
-<VirtualHost *:80>
+    <VirtualHost *:80>
    
    
     ServerName yourdomain.com
@@ -79,13 +79,13 @@ In this comprehensive guide, we'll walk you through the process of establishing 
     </Directory>
 
 
-</VirtualHost>
+    </VirtualHost>
 
 ![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/7a1e1ec4-0713-424f-b69b-43653119dcdd)
 
 **Nginx:**
 
-server {
+    server {
    
     listen 80;
     server_name yourdomain.com www.yourdomain.com;
@@ -100,6 +100,8 @@ server {
         try_files $uri $uri/ /index.html;
     }
 }
+
+
 ![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/54f147eb-44bd-4c40-b4d1-242c26f6fe4c)
 
 
