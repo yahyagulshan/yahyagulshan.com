@@ -19,7 +19,10 @@ hiddenFromHomePage: true
 
 original file without proxy
 
-server {
+< 
+        
+        server {
+        
         listen 80;
 
         root /var/www/html;
@@ -33,12 +36,15 @@ server {
 
         error_log /var/log/nginx/abc.com.error;
         access_log /var/log/nginx/abc.com.access;
+    }
 
-}
+>
 
 proxy add file 
 
-server {
+<
+        
+        server {
         listen 80;
 
         root /var/www/html;
@@ -59,7 +65,9 @@ server {
         error_log /var/log/nginx/abc.com.error;
         access_log /var/log/nginx/abc.com.access;
 
-}
+     }
+
+>
 
 * after change the file check nginx 
 
