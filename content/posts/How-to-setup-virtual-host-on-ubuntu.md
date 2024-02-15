@@ -99,7 +99,8 @@ In this comprehensive guide, we'll walk you through the process of establishing 
     location / {
         try_files $uri $uri/ /index.html;
     }
-}
+    
+    }
 
 
 ![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/54f147eb-44bd-4c40-b4d1-242c26f6fe4c)
