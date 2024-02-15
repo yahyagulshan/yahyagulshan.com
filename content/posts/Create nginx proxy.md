@@ -17,7 +17,7 @@ hiddenFromHomePage: true
 
 ## for nginx Proxy add below lines in nginx configuration file
 
-original file without proxy
+  original file without proxy
 
 < 
         
@@ -40,7 +40,7 @@ original file without proxy
 
 >
 
-proxy add file 
+   proxy add file 
 
 <
         
@@ -71,8 +71,8 @@ proxy add file
 
 * after change the file check nginx 
 
-`nginx -t`
+  `nginx -t`
 
 * if test is successfull then reload nginx
 
-`/etc/init.d/nginx reload`
+  `/etc/init.d/nginx reload`
