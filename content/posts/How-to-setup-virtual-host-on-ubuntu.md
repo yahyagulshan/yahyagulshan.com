@@ -81,6 +81,8 @@ In this comprehensive guide, we'll walk you through the process of establishing 
 
 </VirtualHost>
 
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/7a1e1ec4-0713-424f-b69b-43653119dcdd)
+
 **Nginx:**
 
 server {
@@ -98,6 +100,7 @@ server {
         try_files $uri $uri/ /index.html;
     }
 }
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/54f147eb-44bd-4c40-b4d1-242c26f6fe4c)
 
 
 ### 5. Enable the Virtual Host:
