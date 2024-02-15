@@ -38,8 +38,10 @@ hiddenFromHomePage: true
 
 ---
 
-{{< image src="/img/Connection/file.png" caption=" follow the instruction ">}}
-{{< image src="/img/Connection/file2.png" caption=" follow the instruction ">}}
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/332a4a5a-5751-4954-8fc0-541cd1c0e455)
+
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/f18a363a-edc0-4863-8f30-390a92c62ab1)
+
 
 for file [file](https://yahyagulshan.com/posts/file-content-(account.yaml))
 
@@ -63,14 +65,16 @@ for file [file](https://yahyagulshan.com/posts/file-content-(account.yaml))
 
 * Create a Kubernetes ID named "my_kubernetes" with the token as credentials.
 
-{{< image src="/img/Connection/Jenkins-page.png" caption=" follow the instruction ">}}
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/f6148637-19c5-4349-9348-e907ab1157b8)
+
 
 ### Adding DockerHub Credentials to Jenkins
 
 
 * Navigate to Manage Jenkins > Manage Credentials.
 
-{{< image src="/img/Connection/docker-credentials.png" caption=" follow the instruction ">}}
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/6873ea53-690d-4529-9f65-e5035d05cc0a)
+
 
 
 * Click "Username and Password" and provide your DockerHub credentials.
@@ -86,13 +90,15 @@ for file [file](https://yahyagulshan.com/posts/file-content-(account.yaml))
 **Bash**
 `cat /home/devyan/.minikube/ca.crt | base64 -w 0; echo`
 
-{{< image src="/img/Connection/pic.png" caption=" follow the instruction ">}}
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/b669f786-c427-43c1-ae46-0729a30e991e)
+
 
 * Use Kubernetes Id(my_kubernetes) which was crated earlier.
 
 * Paste the encoded certificate into the "Kubernetes server certificate key" field.
 
-{{< image src="/img/Connection/id.png" caption=" follow the instruction ">}}
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/175f251a-893a-4326-bc9b-f9546b1fc2e3)
+
 
 * Save the configuration.
 
