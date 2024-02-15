@@ -21,7 +21,7 @@ hiddenFromHomePage: true
 
 * `curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64`
 
-### Install Minikube 
+ **Install Minikube** 
 
 * `sudo install minikube-linux-amd64 /usr/local/bin/minikube`
 
@@ -53,8 +53,14 @@ hiddenFromHomePage: true
 
 * `minikube dashboard` (It will open the Kubernetes dashboard in the web browser.)
 
-* To stop the minikube, run `minikube stop`
+* To stop the minikube, run 
 
-* To delete the minikube, run `minikube delete`
+  `minikube stop`
 
-* To Start the minikube, run `minikube start`
+* To delete the minikube, run 
+
+  `minikube delete`
+
+* To Start the minikube, run 
+
+  `minikube start`
