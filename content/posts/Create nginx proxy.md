@@ -17,9 +17,12 @@ hiddenFromHomePage: true
 
 ## for nginx Proxy add below lines in nginx configuration file
 
-original file without proxy
+  original file without proxy
 
-server {
+ 
+        
+        server {
+        
         listen 80;
 
         root /var/www/html;
@@ -33,12 +36,15 @@ server {
 
         error_log /var/log/nginx/abc.com.error;
         access_log /var/log/nginx/abc.com.access;
+    }
 
-}
 
-proxy add file 
 
-server {
+   proxy add file 
+
+
+        
+        server {
         listen 80;
 
         root /var/www/html;
@@ -59,12 +65,14 @@ server {
         error_log /var/log/nginx/abc.com.error;
         access_log /var/log/nginx/abc.com.access;
 
-}
+     }
+
+
 
 * after change the file check nginx 
 
-`nginx -t`
+  `nginx -t`
 
 * if test is successfull then reload nginx
 
-`/etc/init.d/nginx reload`
+  `/etc/init.d/nginx reload`

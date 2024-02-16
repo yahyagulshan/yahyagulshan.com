@@ -1,6 +1,6 @@
 ---
 title: "Create Elastic Beanstalk with Docker"
-date: 2024-01-24-T04:06:22Z
+date: 2024-01-24T04:06:22Z
 author:
 authorLink:
 description:

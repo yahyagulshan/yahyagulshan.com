@@ -21,9 +21,9 @@ hiddenFromHomePage: true
 
 * for creating all the steps follow this repos [Access the GitHub repo here](https://github.com/yahyagulshan/jenkins-kubernetes-pipeline)
 
-# Prerequisites
+### Prerequisites
 
-1- Installed Jenkins on the local system or any VM. [how to install Jenkins](https://yahyagulshan.com/posts/How-to-install-Jenkins-on-Ubuntu-22.04/)
+1- Installed Jenkins on the local system or any VM. [how to install Jenkins](https://yahyagulshan.com/posts/how-to-install-jenkins-on-ubuntu-22.04/)
      
 [for add credentials] (https://yahyagulshan.com/posts/how-to-add-credentials-on-jenkins/) 
      
@@ -33,13 +33,13 @@ hiddenFromHomePage: true
 
 3- Installed Docker.[how to install](https://yahyagulshan.com/posts/how-to-install-docker-on-ubuntu/)
 
-4- Make sure Jenkins has a connection with Kubernetes  [how to make connection](https://medium.com/@devayanthakur/minikube-configure-jenkins-kubernetes-plugin-25eb804d0dec)
+4- Make sure Jenkins has a connection with Kubernetes  [how to make connection](https://yahyagulshan.com/posts/Make-connection-with-kubernetes-and-jenkins)
 
 5- DockerHub Repository:
 
-Have a DockerHub repository ready to store your Docker images.
+* Have a DockerHub repository ready to store your Docker images.
 
-# How to configure Jenkins Project
+### How to configure Jenkins Project
 
 * after installing Jenkins open it on Browser.
 
@@ -83,13 +83,21 @@ Have a DockerHub repository ready to store your Docker images.
 ---
 ![Screenshot from 2024-01-12 20-12-54](https://github.com/yahyagulshan/jenkins-kubernetes-pipeline/assets/59036269/ce50cbd9-3af6-4144-8d93-c380941f0f8e)
 
- * this repo we have `Dockerfile` and `index.php` file. these files are for creating php web page.
+ * this repo we have 
+
+ `Dockerfile` 
+   
+   &
+
+ `index.php` file. 
+ 
+ these files are for creating php web page.
 ![Screenshot from 2024-01-11 21-15-00](https://github.com/yahyagulshan/jenkins-kubernetes-pipeline/assets/59036269/fb7ab2cc-ca83-40a7-8e4b-af814cfc8937)
 
-# Important Note (To run the auto-trigger pipeline our Jenkins should be on a Public host like "EC2" )
+### Important Note (To run the auto-trigger pipeline our Jenkins should be on a Public host like "EC2" )
 * For auto trigger we need to create a webhook on the GitHub repo because the webhook needs to communicate over the public IP.
 
-# Steps for autotrigger pipeline
+### Steps for autotrigger pipeline
 * First we need to create the webhook on our GitHub repo for this go to setting > webhook > Add webhook 
 
 ---
@@ -112,7 +120,7 @@ Have a DockerHub repository ready to store your Docker images.
 
  * Now when we commit new changes on Github with the Specified Branch our Jenkins pipeline should trigger automatically.
 
-# Jenkinsfile Overview
+### Jenkinsfile Overview
 
 The Jenkinsfile orchestrates the pipeline:
 
@@ -120,13 +128,13 @@ The Jenkinsfile orchestrates the pipeline:
 * 2- Pushes the image to the DockerHub repository.
 * 3- Deploys the image to Kubernetes Minikube.
 
-# Note: Customize the Jenkinsfile
+### Note: Customize the Jenkinsfile
 
 * Change the DockerHub credentials in line #16.
 * Update the username in line #17.
 * Change the Kubernetes credentials in line #28.
 
-# Kubernetes Manifest File (deployment.yaml)
+### Kubernetes Manifest File (deployment.yaml)
 
 The `deployment.yaml` file creates a Pod and Service in Kubernetes Minikube.
 

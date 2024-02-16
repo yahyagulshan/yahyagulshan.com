@@ -29,13 +29,20 @@ hiddenFromHomePage: true
 
 ### Installation steps
 
-* first update and upgrade the system `sudo apt update && apt upgrade -y`
+* first update and upgrade the system 
 
-* Install Java usig this command `sudo apt install openjdk-17-jre`
+   `sudo apt update && apt upgrade -y`
 
-* Check Java version `java --version`
+* Install Java usig this command 
+   
+   `sudo apt install openjdk-17-jre`
+
+* Check Java version 
+
+  `java --version`
 
 * Then run below commands
+   
    `sudo wget -O /usr/share/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key`
    
    ` echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null`
