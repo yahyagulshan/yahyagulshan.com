@@ -50,6 +50,7 @@ hiddenFromHomePage: true
 
 * This will launch Vim with two panels, highlighting the differences between the two files. It's a powerful way to visualize changes and make decisions based on the content variations.
 
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/ee93c8ea-6058-4226-997f-77b11139ce49)
 
 
 **Conclusion**
