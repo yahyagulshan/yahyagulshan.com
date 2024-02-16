@@ -50,6 +50,8 @@ hiddenFromHomePage: true
 
 * This will launch Vim with two panels, highlighting the differences between the two files. It's a powerful way to visualize changes and make decisions based on the content variations.
 
+
+
 **Conclusion**
 
 Choosing between the diff command and vimdiff depends on your preferences and specific use case. The diff command provides a quick overview in the terminal, while vimdiff offers a more visual and interactive experience within the Vim editor.
