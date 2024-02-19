@@ -24,7 +24,8 @@ hiddenFromHomePage: true
 
 * In the last option, enable static website hosting.
 
-![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/c74f1207-ee09-45bb-b2bb-6fedeb56e304)
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/1fd5cc81-9645-4ef4-beba-be5e0fd25104)
+
 
 ### 2. Configure Bucket Policy for Public Access
 
@@ -49,7 +50,8 @@ hiddenFromHomePage: true
     }
 
 
-![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/0f0095da-b9a2-44b3-acd8-5e2566c16168)
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/98268406-8f5a-4158-9c50-027c44318c43)
+
 
 ### 3. Create CloudFront Distribution
 
@@ -59,20 +61,26 @@ hiddenFromHomePage: true
 
 * Click on "Create Distribution" and wait for verification.
 
-![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/58a9d5bd-ca0f-4893-8c64-0ab29086d33d)
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/3e5bbea7-b5c1-4424-b3d8-932a03649324)
+
+
 
 ![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/b947c60f-b048-4a27-aa67-66a446c95531)
 
 ![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/8f48d6a6-8277-456f-81d5-8aeea90d3355)
 
-![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/be0bf048-fa1b-4896-bd61-4f58bc43b618)
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/61968fe8-0920-49e4-9ec9-8af3096c5b23)
 
-![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/4ef5d49b-faeb-405d-bd94-9b425c33b4ae)
+
+
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/f5173b88-f5b8-4a69-b4b6-09d24ca7bef6)
+
 
 * After verification, edit the settings and add the alternative domain name
 
 
-![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/62d2ca91-3feb-456b-b793-9e2d32a6e221)
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/61eed6aa-d481-4eee-98a3-41a382818859)
+
 
 ### 4. Configure CloudFront Origin Domain
 
@@ -83,9 +91,11 @@ hiddenFromHomePage: true
 * Save the changes.
 
 
-![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/393cda58-bee9-4048-ba8a-2edcc33602e3)
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/a38d84ff-7475-4442-9109-b0ee531fc590)
 
-![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/c1572564-c322-4ba2-af0e-daa7731bb0fd)
+
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/3e3abf54-ec20-4ed3-a243-e1ae7811bc2a)
+
 
 ### 5. Redirect Domain to CloudFront
 
@@ -100,9 +110,11 @@ hiddenFromHomePage: true
 
 
 
-![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/cc275e5b-b2b3-4f83-ae14-a5b02cb7beac)
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/559e0e15-0509-4373-92f5-16c795fc8a5e)
 
-![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/42e8928c-e91f-49d6-aa01-ec22560eda03)
+
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/6922a3c0-54e0-4d0f-8fd0-1cbb5c05ca1a)
+
 
 
 
