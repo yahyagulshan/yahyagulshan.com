@@ -94,7 +94,7 @@ Click "Continue."
 
 ### Step 8: Establish a VPN Connection
 
-* Open your web browser and navigate to the provided URL (e.g., https://3.134.251.144/).
+* Open your web browser and navigate to the provided URL (e.g., https://5.137.451.944/).
 
 * You'll be redirected to a login page.
 
