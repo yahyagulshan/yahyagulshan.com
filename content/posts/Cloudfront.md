@@ -82,7 +82,7 @@ hiddenFromHomePage: true
 
 * Click on "Create Distribution" and wait for verification.
 
-* After verification, edit the settings and add the alternative domain name
+* After verification, edit the settings and add the alternative domain name (alternative domain is our main domain "abc.com")
 
 
 ![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/61eed6aa-d481-4eee-98a3-41a382818859)
