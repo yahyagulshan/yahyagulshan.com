@@ -61,7 +61,7 @@ hiddenFromHomePage: true
 
 * Follow the snapshots as per next option .
 
-* Click on "Create Distribution" and wait for verification.
+
 
 ![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/3e5bbea7-b5c1-4424-b3d8-932a03649324)
 
@@ -77,6 +77,10 @@ hiddenFromHomePage: true
 
 ![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/f5173b88-f5b8-4a69-b4b6-09d24ca7bef6)
 
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/f487ac80-26ea-4fa5-a034-efef3ecb6ca8)
+
+
+* Click on "Create Distribution" and wait for verification.
 
 * After verification, edit the settings and add the alternative domain name
 
