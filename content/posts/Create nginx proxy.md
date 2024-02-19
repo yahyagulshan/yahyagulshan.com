@@ -71,8 +71,8 @@ hiddenFromHomePage: true
 
 * after change the file check nginx 
 
-  `nginx -t`
+      `nginx -t`
 
 * if test is successfull then reload nginx
 
-  `/etc/init.d/nginx reload`
+      `/etc/init.d/nginx reload`
