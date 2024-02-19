@@ -51,7 +51,9 @@ hiddenFromHomePage: true
 
 * `kubectl config view`
 
-* `minikube dashboard` (It will open the Kubernetes dashboard in the web browser.)
+* `minikube dashboard` 
+
+  (It will open the Kubernetes dashboard in the web browser.)
 
 * To stop the minikube, run 
 
