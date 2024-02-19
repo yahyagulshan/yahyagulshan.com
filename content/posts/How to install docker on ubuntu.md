@@ -17,11 +17,11 @@ hiddenFromHomePage: true
 
 ## for installing Docker on ubuntu just run below simple commands
 
-`apt update && apt upgrade `
+    apt update && apt upgrade 
 
-`apt install docker.io`
+    apt install docker.io
 
-`docker --version`
+    docker --version
 
 Our Docker install on ubuntu.
 
