@@ -14,74 +14,77 @@ draft: false
 hiddenFromHomePage: true
 ---
 
-### Before proceeding with the upgrade
+# Safely Upgrading Your AWS EC2 Server 16.04 to Ubuntu 18.04: A Step-by-Step Guidee
 
-* Before proceeding with the upgrade, ensure that you have taken a backup of your server. This is a critical step to prevent data loss in case of any issues during the upgrade.
+### Before Proceeding with the Upgrade
 
+* Before embarking on the upgrade journey for your AWS EC2 server, it is crucial to take the necessary precautions to avoid potential data loss. Follow these steps diligently to ensure a smooth and secure upgrade process.
 
-***
-### Login to the AWS Console:
+### Step 1: Backup Your Server
+* Before proceeding with the upgrade, ensure that you have taken a backup of your server. This critical step acts as a safety net, protecting your data in case of any unforeseen issues during the upgrade.
+### Upgrading Process
+### Step 2: Login to the AWS Console
 
 * Access your AWS account and navigate to the EC2 dashboard.
 
 ***
 
-### Create an AMI (Amazon Machine Image):
+### Step 3: Create an AMI (Amazon Machine Image)
 
-* Select the EC2 instance that you want to upgrade.
+* 1- Select the EC2 instance that you plan to upgrade.
 
-* Click on the "Actions" button and choose "Image" > "Create Image."
+* 2- Click on the "Actions" button and choose "Image" > "Create Image."
 
-* Follow the prompts to create an AMI of your EC2 instance. This is your backup image.
+* 3- Follow the prompts to create an AMI of your EC2 instance. This AMI serves as your backup image, preserving the current state of your server.
 
 ***
 
 
-### SSH into the Server:
+### Step 4: SSH into the Server
 
 * Once the AMI creation is completed, SSH into your EC2 server using your preferred terminal.
 
-### Check Available Disk Space:
+### Step 5: Check Available Disk Space
 
-* Before proceeding with the upgrade, it's essential to check the available disk space.
+* Before proceeding with the upgrade, it is essential to assess the available disk space on your server. Run the following command to check disk space:
 
-* Run the following command to check disk space:
+      `df -lh`
 
-  `df -lh`
+### Step 6: Perform the Upgrade
 
-### Perform the Upgrade:
+Run the following commands to smoothly upgrade your Ubuntu server:
 
-Run the following commands to upgrade your Ubuntu server:
 Update package lists:
 
-`sudo apt-get update`
+    `sudo apt-get update`
 
 Perform a distribution upgrade:
 
-`sudo apt-get dist-upgrade`
+    `sudo apt-get dist-upgrade`
 
 Install the update manager core:
 
-`sudo apt-get install update-manager-core`
+    `sudo apt-get install update-manager-core`
 
 Initiate the release upgrade:
 
-`sudo do-release-upgrade`
+    `sudo do-release-upgrade`
 
 Follow all instructions provided during the upgrade procedure and carefully monitor each step.
 
-### Restart the Server:
+### Step 7: Restart the Server
 
-* After the upgrade is complete, a system restart is required.
+* 1- After the upgrade is complete, a system restart is required.
 
-* Confirm by pressing "yes" to complete the procedure.
+* 2- Confirm the restart by pressing "yes" to complete the procedure.
 
-* Once the server restarts, your Ubuntu upgrade is complete.
+* 3- Once the server restarts, your Ubuntu upgrade is complete.
 
-### Check the Ubuntu Version:
+
+### Step 8: Check the Ubuntu Version
 
 * To verify that the upgrade was successful and your system is now running Ubuntu 18.04, run the following command:
 
-`cat /etc/os-release`
+      `cat /etc/os-release`
 
-* By following these steps, you can safely and effectively upgrade your AWS EC2 server from Ubuntu 16.04 to Ubuntu 18.04. Remember to back up your data and exercise caution while upgrading to avoid any data loss or service interruption.
+* By meticulously following these steps, you can confidently and securely upgrade your AWS EC2 server from Ubuntu 16.04 to Ubuntu 18.04. Always remember to back up your data and exercise caution during the upgrade to prevent any potential data loss or service interruption. Your server's smooth transition to the latest Ubuntu version is now complete!
