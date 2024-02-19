@@ -110,10 +110,10 @@ hiddenFromHomePage: true
 
 
 
-![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/559e0e15-0509-4373-92f5-16c795fc8a5e)
 
 
-![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/6922a3c0-54e0-4d0f-8fd0-1cbb5c05ca1a)
+
+
 
 
 
