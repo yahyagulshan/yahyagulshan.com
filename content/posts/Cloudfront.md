@@ -107,6 +107,9 @@ hiddenFromHomePage: true
 
 * Copy the URL of the CloudFront distribution.
 
+![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/cd7570dc-9872-494d-aecf-7f67adf7c3a7)
+
+
 * Create a CNAME record on Cloudflare or your domain registrar with the CloudFront URL as the value.
 
 * After populating the value, your website will display the CloudFront content.
