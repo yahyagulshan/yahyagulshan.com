@@ -59,6 +59,8 @@ hiddenFromHomePage: true
 
 * Choose the S3 bucket as the origin domain.
 
+* Follow the snapshots as per next option .
+
 * Click on "Create Distribution" and wait for verification.
 
 ![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/3e5bbea7-b5c1-4424-b3d8-932a03649324)
