@@ -32,7 +32,7 @@ hiddenFromHomePage: true
 
 **Create Secrets**
 
-* Go to your GitHub repository settings > Secrets > Actions.
+* Go to your GitHub repository `settings` > `Secrets` > `Actions`.
 
 ![Screenshot from 2024-02-22 01-38-57](https://github.com/yahyagulshan/linuxnotes/assets/59036269/32d36363-9c51-4b53-b9d7-2d536a307c7f)
 
