@@ -52,7 +52,7 @@ hiddenFromHomePage: true
 
 ![image](https://github.com/yahyagulshan/linuxnotes/assets/59036269/4be5d963-6185-4d29-b27e-388bd444b9e6)
 
-**1**- Create new secrets for:
+**1- Create new secrets for:**
 
 * AWS_ACCESS_KEY_ID
 
@@ -64,13 +64,13 @@ hiddenFromHomePage: true
 
 * EC2_USER (username for SSH access)
 
-**2-** Clone Sample Repository:
+**2- Clone Sample Repository:**
 
 * Clone the sample GitHub repository that you need to follow:
 
       `git clone https://github.com/yahyagulshan/github-aws-ec2.git`
 
-**3-** Configure Workflow (.github/workflows/ec2.yml):
+**3- Configure Workflow** (.github/workflows/ec2.yml):
 
 * Open ec2.yml and update:
 
@@ -92,11 +92,11 @@ hiddenFromHomePage: true
 
 * Commit the changes.
 
-**4-** Push Changes:
+**4- Push Changes:**
 
 * Push your changes to the repository.
 
-**5-** Deployment:
+**5- Deployment:**
 
 The GitHub Actions pipeline will automatically run and deploy your code to the specified EC2 instance based on the configured workflow.
 
