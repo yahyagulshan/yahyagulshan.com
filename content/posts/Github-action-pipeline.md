@@ -14,11 +14,11 @@ categories:
 draft: false
 hiddenFromHomePage: true
 ---
-# Github-action pipeline deploy code on EC2
+# Github-action pipeline deploy code on EC2 🏂 🖥️
 
 * This blog will guide you through setting up a GitHub Actions pipeline to automatically deploy your code to an EC2 instance upon changes in your repository.
 
-### Before you begin:
+### Before you begin: 📝
 
 * Ensure you have an EC2 instance with a public IP address.
 
@@ -30,7 +30,7 @@ hiddenFromHomePage: true
 
 ### Steps
 
-**Create Secrets**
+**Create Secrets**  ⚒️ 🔩	
 
 * Go to your GitHub repository `settings` > `Secrets` > `Actions`.
 
@@ -64,13 +64,13 @@ hiddenFromHomePage: true
 
 * EC2_USER (username for SSH access)
 
-**2- Clone Sample Repository:**
+**2- Clone Sample Repository:** 🪞	
 
 * Clone the sample GitHub repository that you need to follow:
 
       `git clone https://github.com/yahyagulshan/github-aws-ec2.git`
 
-**3- Configure Workflow** (.github/workflows/ec2.yml):
+**3- Configure Workflow** (.github/workflows/ec2.yml): 👨‍🏭 🧑‍💻
 
 * Open ec2.yml and update:
 
@@ -92,17 +92,16 @@ hiddenFromHomePage: true
 
 * Commit the changes.
 
-**4- Push Changes:**
-
+**4- Push Changes:** ➡️ ⛷️ 👊 🏃 🫷
 * Push your changes to the repository.
 
-**5- Deployment:**
+**5- Deployment:** 🏇
 
 The GitHub Actions pipeline will automatically run and deploy your code to the specified EC2 instance based on the configured workflow.
 
 ![image](https://github.com/yahyagulshan/linuxnotes/assets/59036269/cce8361d-e95d-4c48-a9b4-fcd61ce46303)
 
-**Benefits:**
+**Benefits:** 🍇🍏🫐🥥
 
 * Streamlined deployment process.
 
@@ -112,7 +111,7 @@ The GitHub Actions pipeline will automatically run and deploy your code to the s
 
 * Improved collaboration and development cycle.
 
-**Additional Notes:**
+**Additional Notes:**  📔
 
 * This is a basic example. Customize the workflow based on your needs.
 
