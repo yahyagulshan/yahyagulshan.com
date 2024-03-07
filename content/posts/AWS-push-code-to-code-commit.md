@@ -15,7 +15,8 @@ draft: false
 hiddenFromHomePage: true
 ---
 
-# Securely Pushing Changes to AWS CodeCommit: A Step-by-Step Guide 🛡️
+# Securely Pushing Changes to AWS CodeCommit: 
+**A Step-by-Step Guide** 🛡️
 
 * When working with AWS CodeCommit, a secure and straightforward version control service, ensuring the correct setup of credentials is paramount.
 
