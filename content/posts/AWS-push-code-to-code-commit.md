@@ -15,13 +15,14 @@ draft: false
 hiddenFromHomePage: true
 ---
 
-# Securely Pushing Changes to AWS CodeCommit: A Step-by-Step Guide
+# Securely Pushing Changes to AWS CodeCommit: A Step-by-Step Guide 🛡️
 
 * When working with AWS CodeCommit, a secure and straightforward version control service, ensuring the correct setup of credentials is paramount.
 
 * Below, we'll guide you through the process of creating IAM (Identity and Access Management) credentials, obtaining HTTPS Git credentials, and pushing changes to your AWS CodeCommit repository.
 
-### Step 1: Create IAM User for CodeCommit
+### Step 1: Create IAM User for CodeCommit 👨
+
 
 * 1-  Open the AWS IAM console.
 
@@ -33,7 +34,7 @@ hiddenFromHomePage: true
 
 * 5- Complete the user creation process.
 
-### Step 2: Obtain HTTPS Git Credentials
+### Step 2: Obtain HTTPS Git Credentials 🔐
 
 * 1-Open the IAM user you just created and navigate to the "Security credentials" tab.
 
@@ -43,29 +44,29 @@ hiddenFromHomePage: true
 
 * 4- AWS will provide a username and password for accessing the CodeCommit repository.
 
-### Step 3: Push Changes to AWS CodeCommit
+### Step 3: Push Changes to AWS CodeCommit 🫷
 
 * Now that you have your credentials, follow these steps to push changes to your AWS CodeCommit repository.
 
-**3.1 Check the Git Status**
+**3.1 Check the Git Status** 🕵️
 
 Before making any changes, check the status of your Git repository:
 
     `git status`
 
-**3.2 Add and Commit Changes**
+**3.2 Add and Commit Changes**  ✍🏽
 
 Add all changes and commit them with a descriptive message:
 
     `git add --all && git commit -am "Add new file"`
 
-**3.3 Push Changes to the CodeCommit Repository**
+**3.3 Push Changes to the CodeCommit Repository**  🫷
 
 Use the following command to push changes to the CodeCommit repository:
 
     `git push origin master`
 
-**3.4 Enter Username and Password**
+**3.4 Enter Username and Password**  🔐
 
 When prompted, enter the AWS CodeCommit username and password provided in Step 2.
 
