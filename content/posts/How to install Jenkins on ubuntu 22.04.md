@@ -15,7 +15,7 @@ draft: false
 hiddenFromHomePage: true
 ---
 
-## Prerequisites For Installation on Jenkins on ubuntu
+## Prerequisites For Installation on Jenkins on ubuntu 📜
 
 * Minimum hardware requirements:
 
@@ -27,7 +27,7 @@ hiddenFromHomePage: true
 
 * Java
 
-### Installation steps
+### Installation steps ⚙️ 👣
 
 * first update and upgrade the system 
 

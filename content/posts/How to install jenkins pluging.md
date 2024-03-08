@@ -15,7 +15,7 @@ draft: false
 hiddenFromHomePage: true
 ---
 
-# Install Jenkins Plugins follow below steps
+# Install Jenkins Plugins follow below steps 
 
 * Open Jenkins
 

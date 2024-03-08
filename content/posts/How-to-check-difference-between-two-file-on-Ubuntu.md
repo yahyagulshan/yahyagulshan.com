@@ -15,7 +15,7 @@ draft: false
 hiddenFromHomePage: true
 ---
 
-# Checking Differences Between Two Files: A Quick Guide
+# Checking Differences Between Two Files: A Quick Guide 🧐
 
 * When working with files, it's crucial to compare them to understand the changes made over time. Whether you're a developer examining code changes or a content creator reviewing document revisions, knowing how to check differences is a valuable skill. In this guide, we'll explore two methods for comparing files: using the diff command and the vimdiff tool.
 
@@ -36,7 +36,7 @@ hiddenFromHomePage: true
 
 * This command will display the differences between file1 and file2, providing valuable insights into changes made to the content.
 
-**Using vimdiff for a Visual Comparison**
+**Using vimdiff for a Visual Comparison** ⚖️
 
 *Step 1: Navigate to the Directory*
 
@@ -53,6 +53,6 @@ hiddenFromHomePage: true
 ![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/ee93c8ea-6058-4226-997f-77b11139ce49)
 
 
-**Conclusion**
+**Conclusion** 💡
 
 Choosing between the diff command and vimdiff depends on your preferences and specific use case. The diff command provides a quick overview in the terminal, while vimdiff offers a more visual and interactive experience within the Vim editor.
