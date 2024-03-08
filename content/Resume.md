@@ -14,7 +14,7 @@ Dedicated and highly skilled DevOps Engineer with 8 years of hands-on experience
 ***
 
 ***
-**Technical Skills Summary:**
+**Technical Skills Summary:** 👩🏾‍🔧
 
 - Cloud Platforms: AWS, Azure, Google Cloud Platform (GCP)
 - Infrastructure as Code: Terraform, AWS CloudFormation
@@ -32,12 +32,12 @@ Dedicated and highly skilled DevOps Engineer with 8 years of hands-on experience
 
 
 ***
-**Certifications:**
+**Certifications:** 👨🏻‍🎓 🥇
 AWS solution architect
 
 ***
 
-**Work Experience**
+ 👷🏼 **Work Experience**  👨‍🔧 👨🏽‍💼
 
 *Cloudelligent - DevOps *
 
