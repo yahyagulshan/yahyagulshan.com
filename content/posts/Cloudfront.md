@@ -14,7 +14,7 @@ categories:
 draft: false
 hiddenFromHomePage: true
 ---
-# 1. Create S3 Bucket for Static Website Hosting
+# 1. Create S3 Bucket for Static Website Hosting  🌐
 
 * Create an S3 bucket named "domain-name.com."
 
@@ -27,7 +27,7 @@ hiddenFromHomePage: true
 ![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/1fd5cc81-9645-4ef4-beba-be5e0fd25104)
 
 
-### 2. Configure Bucket Policy for Public Access
+### 2. Configure Bucket Policy for Public Access 📑
 
 * In the S3 bucket, navigate to "Permissions."
 
@@ -53,7 +53,7 @@ hiddenFromHomePage: true
 ![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/98268406-8f5a-4158-9c50-027c44318c43)
 
 
-### 3. Create CloudFront Distribution
+### 3. Create CloudFront Distribution  📤
 
 * Go to CloudFront and click on "Create Distribution."
 
@@ -88,7 +88,7 @@ hiddenFromHomePage: true
 ![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/61eed6aa-d481-4eee-98a3-41a382818859)
 
 
-### 4. Configure CloudFront Origin Domain
+### 4. Configure CloudFront Origin Domain 🌍
 
 * Go to CloudFront > Origins > Edit.
 
@@ -103,7 +103,7 @@ hiddenFromHomePage: true
 ![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/3e3abf54-ec20-4ed3-a243-e1ae7811bc2a)
 
 
-### 5. Redirect Domain to CloudFront
+### 5. Redirect Domain to CloudFront ↪️
 
 * Copy the URL of the CloudFront distribution.
 
