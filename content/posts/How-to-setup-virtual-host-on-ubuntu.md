@@ -17,11 +17,11 @@ hiddenFromHomePage: true
 
 # How to Set Up a Virtual Host on Ubuntu 18.04 and 20.04
 
-**Introduction**
+**Introduction** 👋
 
 In this comprehensive guide, we'll walk you through the process of establishing a virtual host on Ubuntu 18.04 and 20.04, enabling you to host multiple websites on a single server. We'll cover both Apache and Nginx web servers, ensuring you have the flexibility to choose the one that best suits your needs.
 
-**Prerequisites**
+**Prerequisites** 📜
 
 * A running Ubuntu 18.04 or 20.04 server
 
@@ -29,21 +29,21 @@ In this comprehensive guide, we'll walk you through the process of establishing 
 
 * Basic understanding of web servers and virtual hosts
 
-### Step-by-Step Guide (Apache)
+### Step-by-Step Guide (Apache) 👣
 
-### 1. Choose and Install Your Web Server:
+### 1. Choose and Install Your Web Server: 🖥 🖥️
 
 * For Apache: `sudo apt install apache2`
 
 * For Nginx: `sudo apt install nginx`
 
-### 2. Create the Website Directory:
+### 2. Create the Website Directory: 📂
 
 `sudo mkdir /var/www/yourdomain.com`
 
 * Replace yourdomain.com with your actual domain name.
 
-### 3. Create the Index File:
+### 3. Create the Index File: 📃
 
 * Create an index.html file within the website directory using a text editor (e.g., nano or vim) and add your website content.
 
@@ -106,7 +106,7 @@ In this comprehensive guide, we'll walk you through the process of establishing 
 ![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/54f147eb-44bd-4c40-b4d1-242c26f6fe4c)
 
 
-### 5. Enable the Virtual Host:
+### 5. Enable the Virtual Host: 🧗🏿
 
 **Apache:**
 
@@ -138,7 +138,7 @@ In this comprehensive guide, we'll walk you through the process of establishing 
 
 `sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com`
 
-### 8. Automate SSL Renewal Apache(Optional):
+### 8. Automate SSL Renewal Apache(Optional): 🔒
 
 * For automatic renewal every 3 months:
 
@@ -149,7 +149,7 @@ In this comprehensive guide, we'll walk you through the process of establishing 
 `0 6 1 */3 * root certbot renew >> /var/log/certbot-renewal.log`
 
 
-### 9. Automate SSL Renewal Nginx(Optional):
+### 9. Automate SSL Renewal Nginx(Optional): 🔒 🎡
 
 * For check autorenewal in on
 
