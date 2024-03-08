@@ -15,7 +15,7 @@ hiddenFromHomePage: true
 ---
 
 [Access the GitHub repo here](https://github.com/yahyagulshan/yahyagulshan.com)
-## 1. Create S3 Bucket for Static Website Hosting
+## 1. Create S3 Bucket for Static Website Hosting 🗑️  🌎
 
 
 * Create an S3 bucket named "abc.com"
@@ -59,7 +59,7 @@ Change the "config.toml" file:
 
 <!-- {{< image src="/img/setting-up-aws-s3-github/config-toml.png" caption=" Open URL ">}} -->
 
-## 4. Add Secrets to GitHub Repository
+## 4. Add Secrets to GitHub Repository 📂
 
 * In GitHub repository settings, go to "Secrets and variables" > "Actions."
 
@@ -72,11 +72,11 @@ Change the "config.toml" file:
 
 <!-- {{< image src="/img/setting-up-aws-s3-github/secret.png" caption=" Open URL ">}} -->
 
-## 5. Run the GitHub Actions Pipeline
+## 5. Run the GitHub Actions Pipeline 🏃🏻‍♂️
 
 * Trigger the GitHub Actions pipeline to send necessary materials to AWS S3.
 
-## 6. Create AWS ACM SSL Certificate
+## 6. Create AWS ACM SSL Certificate 🔒🏅
 
 * Open AWS ACM page and click on "Request a Public Certificate."
 
@@ -124,7 +124,7 @@ Change the "config.toml" file:
 
 
 
-## 10. Redirect Domain to CloudFront
+## 10. Redirect Domain to CloudFront ↩️
 
 * Copy the URL of the CloudFront distribution.
 

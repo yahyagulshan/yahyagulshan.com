@@ -15,13 +15,13 @@ draft: false
 hiddenFromHomePage: true
 ---
 
-# Jenkins Kubernetes Pipeline for Containerized PHP Web Application - A Step-by-Step Guide
+# Jenkins Kubernetes Pipeline for Containerized PHP Web Application - A Step-by-Step Guide 📚
 
 * In this blog post, we'll walk through the process of setting up a Jenkins pipeline to containerize a PHP web application and deploy it to Kubernetes Minikube. Before we dive into the details, make sure you have the following prerequisites in place:
 
 * for creating all the steps follow this repos [Access the GitHub repo here](https://github.com/yahyagulshan/jenkins-kubernetes-pipeline)
 
-### Prerequisites
+### Prerequisites 📜
 
 1- Installed Jenkins on the local system or any VM. [how to install Jenkins](https://yahyagulshan.com/posts/how-to-install-jenkins-on-ubuntu-22.04/)
      
@@ -39,7 +39,7 @@ hiddenFromHomePage: true
 
 * Have a DockerHub repository ready to store your Docker images.
 
-### How to configure Jenkins Project
+### How to configure Jenkins Project ☰
 
 * after installing Jenkins open it on Browser.
 
@@ -97,7 +97,8 @@ hiddenFromHomePage: true
 ### Important Note (To run the auto-trigger pipeline our Jenkins should be on a Public host like "EC2" )
 * For auto trigger we need to create a webhook on the GitHub repo because the webhook needs to communicate over the public IP.
 
-### Steps for autotrigger pipeline
+### Steps for autotrigger pipeline 👣
+
 * First we need to create the webhook on our GitHub repo for this go to setting > webhook > Add webhook 
 
 ---
@@ -120,7 +121,7 @@ hiddenFromHomePage: true
 
  * Now when we commit new changes on Github with the Specified Branch our Jenkins pipeline should trigger automatically.
 
-### Jenkinsfile Overview
+### Jenkinsfile Overview 📋
 
 The Jenkinsfile orchestrates the pipeline:
 

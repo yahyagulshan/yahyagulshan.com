@@ -15,9 +15,9 @@ draft: false
 hiddenFromHomePage: true
 ---
 
-# This document outlines the steps to connect Kubernetes and Jenkins on a Linux (Ubuntu) machine with Minikube running.
+# This document outlines the steps to connect Kubernetes and Jenkins on a Linux (Ubuntu) machine with Minikube running. 🖥 🖥️ 📡
 
-## Prerequisites: 
+## Prerequisites:  📜
 
 * Jenkins installed on a Linux (Ubuntu) machine.
 
@@ -32,7 +32,7 @@ hiddenFromHomePage: true
 
 * Kubernetes
 
-### Creating a Service Account and Secret for Kubernetes Plugin in Minikube
+### Creating a Service Account and Secret for Kubernetes Plugin in Minikube 🏗️🛠️
 
 * Create a file named account.yaml with the following content:
 
@@ -68,7 +68,7 @@ for file [file](https://yahyagulshan.com/posts/file-content-(account.yaml))
 ![image](https://github.com/yahyagulshan/yahyagulshan.com/assets/59036269/f6148637-19c5-4349-9348-e907ab1157b8)
 
 
-### Adding DockerHub Credentials to Jenkins
+### Adding DockerHub Credentials to Jenkins 📇
 
 
 * Navigate to Manage Jenkins > Manage Credentials.
@@ -79,7 +79,7 @@ for file [file](https://yahyagulshan.com/posts/file-content-(account.yaml))
 
 * Click "Username and Password" and provide your DockerHub credentials.
 
-### Configuring Kubernetes Plugin in Jenkins
+### Configuring Kubernetes Plugin in Jenkins 🔲 🔲 🔲
 
 * Navigate to Manage Jenkins > Manage Nodes & Clouds.
 
