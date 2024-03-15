@@ -18,23 +18,24 @@ draft: false
 hiddenFromHomePage: true
 ---
 
-# Creating an Elastic Beanstalk Environment: A Step-by-Step Guide
+# Creating an Elastic Beanstalk Environment: 🏡
+A Step-by-Step Guide 🪜
 
 * Setting up your application on Amazon Elastic Beanstalk is a seamless process that allows for easy deployment and scaling. 
   Follow these steps to create your environment:
 
-## Step 1: Open Elastic Beanstalk and Create Environment
+### Step 1: Open Elastic Beanstalk and Create Environment 📭
 
 {{< image src="/img/beanstalk/Create.png" caption=" follow the instruction ">}}
 
-## Step 2: Configure Environment 
+### Step 2: Configure Environment  📊
 * Open a new page and click on the web server.
 
 * Provide a suitable application name, let the environment name be selected automatically, and specify the domain name.
 
 {{< image src="/img/beanstalk/configure-env.png" caption=" follow the instruction ">}}
 
-## Step 3: Platform Configuration
+### Step 3: Platform Configuration
 * Scroll down the page.
 
 * In the Platform section, select "Docker."
@@ -46,7 +47,7 @@ hiddenFromHomePage: true
 
 {{< image src="/img/beanstalk/plateform.png" caption=" follow the instruction ">}}
 
-## Step 4: Configure Service Access
+### Step 4: Configure Service Access
 
 * Configure the service access settings.
 
@@ -57,7 +58,7 @@ hiddenFromHomePage: true
 
 {{< image src="/img/beanstalk/Configure-service.png" caption=" follow the instruction ">}}
 
-## Step 5: Networking Setup
+### Step 5: Networking Setup: 🖧
 
 
 * Select the VPC for networking.
@@ -68,7 +69,7 @@ hiddenFromHomePage: true
 
 {{< image src="/img/beanstalk/setup-networking.png" caption=" follow the instruction ">}}
 
-## Step 6: Database Configuration
+### Step 6: Database Configuration 🛢️
 
 * Scroll down the page.
 
@@ -78,7 +79,7 @@ hiddenFromHomePage: true
 
 {{< image src="/img/beanstalk/databases.png" caption=" follow the instruction ">}}
 
-## Step 7: Instance and Scaling Configuration
+### Step 7: Instance and Scaling Configuration 🖳
 
 * Configure instance settings.
 
@@ -87,13 +88,13 @@ hiddenFromHomePage: true
 
 {{< image src="/img/beanstalk/configure-instance.png" caption=" follow the instruction ">}}
 
-## Step 8: Security Group Selection
+### Step 8: Security Group Selection 🔏
 
 * Select the security group for the environment.
 
 {{< image src="/img/beanstalk/instance-meta-data.png" caption=" follow the instruction ">}}
 
-## Step 9: Autoscaling Configuration
+### Step 9: Autoscaling Configuration
 
 * Configure autoscaling for the environment.
 
@@ -101,7 +102,7 @@ hiddenFromHomePage: true
 
 {{< image src="/img/beanstalk/capacity.png" caption=" follow the instruction ">}}
 
-## Step 10: Architecture and Instance Type
+### Step 10: Architecture and Instance Type 📐
 
 * Select the architecture (default: "s86_64").
 
@@ -111,13 +112,13 @@ hiddenFromHomePage: true
 
 {{< image src="/img/beanstalk/architecture.png" caption=" follow the instruction ">}}
 
-## Step 11: Scaling Triggers
+### Step 11: Scaling Triggers
 
 * Use default scaling triggers settings.
 
 {{< image src="/img/beanstalk/scalling-triggers.png" caption=" follow the instruction ">}}
 
-## Step 12: Load Balancer Networking
+### Step 12: Load Balancer Networking
 
 * Configure load balancer settings.
 
@@ -126,7 +127,7 @@ hiddenFromHomePage: true
 
 {{< image src="/img/beanstalk/loadbalancer-networking.png" caption=" follow the instruction ">}}
 
-## Step 13: Load Balancer Type and Listener
+### Step 13: Load Balancer Type and Listener
 
 * Select the load balancer type.
 
@@ -134,13 +135,13 @@ hiddenFromHomePage: true
 
 {{< image src="/img/beanstalk/load-type.png" caption=" follow the instruction ">}}
 
-## Step 14: Load Balancer Rules
+### Step 14: Load Balancer Rules 📝
 
 * Use default load balancer rules.
 
 {{< image src="/img/beanstalk/rules.png" caption=" follow the instruction ">}}
 
-## Step 15: Monitoring and Logging
+### Step 15: Monitoring and Logging 📈
 
 * Open the next page.
 
@@ -151,20 +152,20 @@ hiddenFromHomePage: true
 
 {{< image src="/img/beanstalk/Configure-updates.png" caption=" follow the instruction ">}}
 
-## Step 16: Managed Updates and SNS Notification
+### Step 16: Managed Updates and SNS Notification 📌📌
 
 * Optionally, configure managed updates and SNS notification for platform updates.
 
 {{< image src="/img/beanstalk/manage-plateform-updates.png" caption=" follow the instruction ">}}
 
-## Step 17: Rolling Updates
+### Step 17: Rolling Updates
 
 * Leave all next options as default.
 
 
 {{< image src="/img/beanstalk/rolling-updates.png" caption=" follow the instruction ">}}
 
-## Step 18: Platform Software
+### Step 18: Platform Software 📀
 
 * Configure platform software settings.
 
@@ -172,7 +173,7 @@ hiddenFromHomePage: true
 
 {{< image src="/img/beanstalk/plateform-update.png" caption=" follow the instruction ">}}
 
-## Step 19: Logs Storage on S3
+### Step 19: Logs Storage on S3 📦 🧺
 
 * Configure S3 log storage settings if needed.
 
@@ -180,7 +181,7 @@ hiddenFromHomePage: true
 
 {{< image src="/img/beanstalk/S3-log-storage.png" caption=" follow the instruction ">}}
 
-## Step 20: Final Steps
+### Step 20: Final Steps ⛳
 
 * Press next.
 
