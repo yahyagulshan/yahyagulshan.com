@@ -15,7 +15,7 @@ draft: false
 hiddenFromHomePage: true
 ---
 
-## for nginx Proxy add below lines in nginx configuration file
+## for nginx 🕴Proxy add below lines in nginx configuration 🗂 file
 
   original file without proxy
 
