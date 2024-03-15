@@ -158,7 +158,7 @@ A Step-by-Step Guide 🪜
 
 {{< image src="/img/beanstalk/manage-plateform-updates.png" caption=" follow the instruction ">}}
 
-### Step 17: Rolling Updates
+### Step 17: Rolling Updates 📣
 
 * Leave all next options as default.
 
