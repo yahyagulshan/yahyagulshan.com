@@ -112,13 +112,13 @@ A Step-by-Step Guide 🪜
 
 {{< image src="/img/beanstalk/architecture.png" caption=" follow the instruction ">}}
 
-### Step 11: Scaling Triggers
+### Step 11: Scaling Triggers 🎚️
 
 * Use default scaling triggers settings.
 
 {{< image src="/img/beanstalk/scalling-triggers.png" caption=" follow the instruction ">}}
 
-### Step 12: Load Balancer Networking
+### Step 12: Load Balancer Networking 🖧⚖
 
 * Configure load balancer settings.
 
@@ -127,7 +127,7 @@ A Step-by-Step Guide 🪜
 
 {{< image src="/img/beanstalk/loadbalancer-networking.png" caption=" follow the instruction ">}}
 
-### Step 13: Load Balancer Type and Listener
+### Step 13: Load Balancer Type and Listener 🎧
 
 * Select the load balancer type.
 
