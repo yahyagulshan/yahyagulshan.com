@@ -16,11 +16,11 @@ hiddenFromHomePage: true
 
 ***
 
-# Setting Up OpenVPN on AWS
+# Setting Up OpenVPN on 🇦 🇼 🇸 📡🏰
 
 
 
-### Step 1: Launch an EC2 Instance
+### Step 1: Launch an EC2 Instance 🖥️🖥
 
 * Open the AWS Console.
 
@@ -30,7 +30,7 @@ hiddenFromHomePage: true
 
 ***
 
-### Step 2: Select an OpenVPN AMI
+### Step 2: Select an OpenVPN AMI 🖥️🖥🪞
 
 * In the "Browse for AMIs" section, search for "OpenVPN."
 
@@ -39,7 +39,7 @@ hiddenFromHomePage: true
 
 {{< image src="/img/openvpn/EC2.png" caption="this is a Example of AMI ">}}
 
-### Step 3: Choose the First AMI
+### Step 3: Choose the First AMI 👈
 
 * Select the first available OpenVPN AMI.
 Click "Continue."
@@ -57,7 +57,7 @@ Click "Continue."
 * Create or select an Elastic IP for your instance. 
  `This is essential for a stable connection.`
 
-### Step 5: SSH into the Server
+### Step 5: SSH into the Server 🖥️
 
 * SSH into the newly created EC2 instance following the instructions provided in the screenshot.
 
@@ -68,8 +68,8 @@ Click "Continue."
 
 
 ***
-
-### Step 6: Set Password for User 'openvpn'
+ 
+### Step 6: Set Password for User 'openvpn' 🔐⛓🖇
 
 
 * After connecting to the server, set a password for the 'openvpn' user as per the screenshot's instructions.
@@ -104,7 +104,7 @@ Click "Continue."
 
 ***
 
-### Step 9: Download the Configuration File
+### Step 9: 📥 Download the Configuration File
 
 * Download the VPN configuration file to your local system.
 
@@ -130,7 +130,7 @@ Click "Continue."
 
 ***
 
-### Step 11: Verify the Connection
+### Step 11: Verify 🔵✔️ the Connection 🎯
 
 * Your IP address should now be changed and static, indicating a successful VPN connection.
 
