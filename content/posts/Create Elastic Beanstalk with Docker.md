@@ -94,7 +94,7 @@ A Step-by-Step Guide 🪜
 
 {{< image src="/img/beanstalk/instance-meta-data.png" caption=" follow the instruction ">}}
 
-### Step 9: Autoscaling Configuration
+### Step 9: Autoscaling Configuration 🖥️🖥🖥️🖥🖥️🖥🖥️🖥🖥️🖥🖥️ 📑
 
 * Configure autoscaling for the environment.
 
@@ -102,7 +102,7 @@ A Step-by-Step Guide 🪜
 
 {{< image src="/img/beanstalk/capacity.png" caption=" follow the instruction ">}}
 
-### Step 10: Architecture and Instance Type 📐📏✏️
+### Step 10: Architecture and Instance Type 🖥🖥️ 📐📏✏️🤔
 
 * Select the architecture (default: "s86_64").
 
