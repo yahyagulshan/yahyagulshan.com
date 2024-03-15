@@ -15,7 +15,7 @@ draft: false
 hiddenFromHomePage: true
 ---
 
-# Add Credentials 
+# Add Credentials 🔐
 
 * Go to Jenkins Dashboard
 
