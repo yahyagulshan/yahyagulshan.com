@@ -16,7 +16,7 @@ draft: false
 hiddenFromHomePage: true
 ---
 # Secure Your Domain: Adding a DMARC Policy with AWS Route53🔏
-**Introduction** 👋
+### 1- Introduction 👋
 
 * In today's digital world, protecting your domain from email spoofing and phishing attacks is crucial. 
 
@@ -28,7 +28,7 @@ hiddenFromHomePage: true
 
 📢 Great news! You can easily add a DMARC policy to your domain using Route53. Let's explore the steps involved:
 
-### Adding a DMARC Policy in Route53:📋
+### 2- Adding a DMARC Policy in Route53:📋
 
 **1- Log in to your AWS Management Console**👨‍💻
 
@@ -46,7 +46,7 @@ hiddenFromHomePage: true
 
      v=DMARC1; p=quarantine; rua=mailto:noreply@abc.com; pct=100;
 
-### Explanation of the policy string: 🚏
+### 3- Explanation of the policy string: 🚏
 
 * `v=DMARC1` specifies the DMARC version.
 
@@ -56,7 +56,7 @@ hiddenFromHomePage: true
 
 * `pct=100` indicates that DMARC reports should be sent for all emails (100%).
 
-### Set the TTL (Time To Live) to a low value, such as 60 seconds.
+### 4- Set the TTL (Time To Live) to a low value, such as 60 seconds.
 
 **Verifying DMARC Implementation:** ☑️🕵🏼‍♀️
 
