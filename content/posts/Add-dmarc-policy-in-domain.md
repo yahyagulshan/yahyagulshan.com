@@ -16,7 +16,7 @@ draft: false
 hiddenFromHomePage: true
 ---
 # Secure Your Domain: Adding a DMARC Policy with AWS Route53🔏
-**Introduction**ℹ️
+**Introduction** 👋
 
 * In today's digital world, protecting your domain from email spoofing and phishing attacks is crucial. 
 
@@ -56,7 +56,7 @@ hiddenFromHomePage: true
 
 * `pct=100` indicates that DMARC reports should be sent for all emails (100%).
 
-## Set the TTL (Time To Live) to a low value, such as 60 seconds.
+### Set the TTL (Time To Live) to a low value, such as 60 seconds.
 
 **Verifying DMARC Implementation:** ☑️🕵🏼‍♀️
 
