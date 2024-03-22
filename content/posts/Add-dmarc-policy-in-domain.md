@@ -29,7 +29,7 @@ Great news! You can easily add a DMARC policy to your domain using Route53. Let'
 
 ### Adding a DMARC Policy in Route53:📋
 
-**1- Log in to your AWS Management Console.**👨‍💻
+**1- Log in to your AWS Management Console**👨‍💻
 
 **2- Navigate to Amazon Route53.**
 
