@@ -15,7 +15,7 @@ draft: false
 hiddenFromHomePage: true
 ---
 
-## for installing Docker on ubuntu just run below simple commands
+## for installing ⛴️ Docker on 🐧ubuntu just run below simple commands
 
     apt update && apt upgrade 
 
