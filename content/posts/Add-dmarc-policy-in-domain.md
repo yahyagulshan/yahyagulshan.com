@@ -24,7 +24,7 @@ hiddenFromHomePage: true
 
 * By implementing a DMARC policy, you gain valuable insights into email traffic and protect your reputation.
 
-**Are you using AWS Route53 for DNS management** 
+**Are you using AWS Route53 for DNS management** ❓
 
 📢 Great news! You can easily add a DMARC policy to your domain using Route53. Let's explore the steps involved:
 
@@ -32,21 +32,21 @@ hiddenFromHomePage: true
 
 **1- Log in to your AWS Management Console**👨‍💻
 
-**2- Navigate to Amazon Route53.**
+**2- Navigate to Amazon Route53.** ⬅️
 
-**3- Select the hosted zone for the domain you want to protect.**
+**3- Select the hosted zone for the domain you want to protect.** 🤺
 
-**4- Click "Create Record Set."**
+**4- Click "Create Record Set."**🖱️
 
 **5- For Name, enter "_dmarc" (underscore followed by "dmarc").**
 
 **6- For Type, choose "TXT".**
 
-**7- For Value, paste the following DMARC policy string:**
+**7- For Value, paste the following DMARC policy string:**📃
 
      v=DMARC1; p=quarantine; rua=mailto:noreply@abc.com; pct=100;
 
-### Explanation of the policy string: 
+### Explanation of the policy string: 🚏
 
 * `v=DMARC1` specifies the DMARC version.
 
