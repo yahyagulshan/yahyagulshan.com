@@ -24,8 +24,9 @@ hiddenFromHomePage: true
 
 * By implementing a DMARC policy, you gain valuable insights into email traffic and protect your reputation.
 
-**Are you using AWS Route53 for DNS management?**📢  
-Great news! You can easily add a DMARC policy to your domain using Route53. Let's explore the steps involved:
+**Are you using AWS Route53 for DNS management** 
+
+📢 Great news! You can easily add a DMARC policy to your domain using Route53. Let's explore the steps involved:
 
 ### Adding a DMARC Policy in Route53:📋
 
