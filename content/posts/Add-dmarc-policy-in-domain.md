@@ -16,7 +16,7 @@ draft: false
 hiddenFromHomePage: true
 ---
 # Secure Your Domain: Adding a DMARC Policy with AWS Route53🔏
-**Introduction:**ℹ️
+**Introduction**ℹ️
 
 * In today's digital world, protecting your domain from email spoofing and phishing attacks is crucial. 
 
@@ -36,13 +36,13 @@ hiddenFromHomePage: true
 
 **3- Select the hosted zone for the domain you want to protect.** 🤺
 
-**4- Click "Create Record Set."**🖱️
+**4- Click "Create Record Set**🖱️
 
 **5- For Name, enter "_dmarc" (underscore followed by "dmarc").**
 
 **6- For Type, choose "TXT".**
 
-**7- For Value, paste the following DMARC policy string:**📃
+**7- For Value, paste the following DMARC policy string**📃
 
      v=DMARC1; p=quarantine; rua=mailto:noreply@abc.com; pct=100;
 
